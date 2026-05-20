@@ -1,0 +1,15 @@
+[project]
+name = "callmemaybe"
+version = "0.1.0"
+description = "CallMeMaybe Project from 42Luxembourg"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pydantic",
+    "llm-sdk",
+    "accelerate"
+]
+
+[tool.uv.sources]
+llm-sdk = {path="./llm_sdk"}
