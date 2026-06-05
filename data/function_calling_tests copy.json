@@ -1,12 +1,6 @@
 [
   {
-    "prompt": "Configure an analytics run on the dataset 'Alpha_Log'. Ensure verbose logging is set to true. For the nested processing engine, scale the target column 'latency' using the scaling factor 123.456"
-  },
-  {
-    "prompt": "sum four and three"
-  },
-  {
-    "prompt": "Configure a cleanup pipeline called 'TextSanitizer' that uses a regex substitution to remove all digits from the string 'User123'"
+    "prompt": "What is the sum of 2 and 3?"
   },
   {
     "prompt": "Greet shrek"
@@ -14,14 +8,15 @@
   {
     "prompt": "Substitute the word 'cat' with 'dog' in 'The cat sat on the mat with another cat'"
   },
+  
   {
     "prompt": "Reverse the string 'hello'"
   },
   {
-    "prompt": "What is the square root of 16?"
+    "prompt": "Greet john"
   },
   {
-    "prompt": "Greet john"
+    "prompt": "What is the square root of 16?"
   },
   {
     "prompt": "Reverse the string 'world'"

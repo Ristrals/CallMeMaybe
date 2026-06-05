@@ -67,5 +67,60 @@
     "returns": {
       "type": "string"
     }
+  },
+  {
+    "name": "fn_configure_regex_pipeline",
+    "description": "Set up a text manipulation pipeline with an attached configuration engine.",
+    "parameters": {
+      "pipeline_name": {
+        "type": "string"
+      },
+      "regex_engine": {
+        "type": "function",
+        "parameters": {
+          "source_string": {
+            "type": "string"
+          },
+          "regex": {
+            "type": "string"
+          },
+          "replacement": {
+            "type": "string"
+          }
+        }
+      },
+      "user_number": {
+        "type": "number"
+      }
+    },
+    "returns": {
+      "type": "string"
+    }
+  },
+  {
+  "name": "fn_orchestrate_analytics",
+  "description": "Deploy an analytical data pipeline with conditional feature scaling metrics.",
+  "parameters": {
+    "dataset_name": {
+      "type": "string"
+    },
+    "verbose_logging": {
+      "type": "boolean"
+    },
+    "processing_engine": {
+      "type": "function",
+      "parameters": {
+        "target_column": {
+          "type": "string"
+        },
+        "scaling_factor": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "returns": {
+    "type": "string"
   }
+}
 ]
