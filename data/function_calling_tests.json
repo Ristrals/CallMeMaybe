@@ -1,41 +1,17 @@
 [
   {
-    "prompt": "Configure an analytics run on the dataset 'Alpha_Log'. Ensure verbose logging is set to true. For the nested processing engine, scale the target column 'latency' using the scaling factor 123.456"
-  },
-  {
-    "prompt": "sum four and three"
-  },
-  {
-    "prompt": "Configure a cleanup pipeline called 'TextSanitizer' that uses a regex substitution to remove all digits from the string 'User123'"
+    "prompt": "sum -123 and -456"
   },
   {
     "prompt": "Greet shrek"
   },
   {
-    "prompt": "Substitute the word 'cat' with 'dog' in 'The cat sat on the mat with another cat'"
-  },
-  {
-    "prompt": "Reverse the string 'hello'"
-  },
-  {
-    "prompt": "What is the square root of 16?"
-  },
-  {
-    "prompt": "Greet john"
-  },
-  {
-    "prompt": "Reverse the string 'world'"
-  },
-  {
     "prompt": "What is the sum of 265 and 345?"
   },
   {
-    "prompt": "Calculate the square root of 144"
+    "prompt": "Set up a new text manipulation pipeline called 'censor_api'. Configure its inner engine to look for the word 'SECRET' in the text 'The code is SECRET' and change it to 'REDACTED'."
   },
   {
-    "prompt": "Replace all numbers in \"Hello 34 I'm 233 years old\" with NUMBERS"
-  },
-  {
-    "prompt": "Replace all vowels in 'Programming is fun' with asterisks"
+    "prompt": "Deploy an analytical data pipeline for the 'user_onboarding' matrix. Enable verbose logging, and tell the processing engine to scale the 'signup_count' column by a factor of 2.0."
   }
 ]

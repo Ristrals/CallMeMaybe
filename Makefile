@@ -5,7 +5,7 @@ SET_UVCACHE =	UV_CACHE_DIR=/tmp/$(USER)/.cache/uv \
 				HF_HOME=/tmp/$(USER)/.cache/huggingface \
 
 run:
-	$(SET_UVCACHE) uv run main.py data/functions_definition.json data/function_calling_tests.json
+	$(SET_UVCACHE) uv run python -m src data/functions_definition.json data/function_calling_tests.json
 
 book:
 	$(SET_UVCACHE) uv run book.py

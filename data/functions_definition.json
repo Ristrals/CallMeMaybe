@@ -88,9 +88,6 @@
             "type": "string"
           }
         }
-      },
-      "user_number": {
-        "type": "number"
       }
     },
     "returns": {
